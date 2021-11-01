@@ -4,7 +4,9 @@
 //
 // Elijah Afolabi
 
+
 #include <stdbool.h>
+#include <stdlib.h>
 
 /* Defines the type of the elements in the linked list. You may change this if
  * you want! */
@@ -23,6 +25,7 @@ typedef struct node node_t;
  * list. */
 struct list {
 	node_t *head;
+  int length;
 };
 typedef struct list list_t;
 
